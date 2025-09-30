@@ -10946,21 +10946,22 @@ p.lead {
 
 section.resume-section {
   display: flex;
-  align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  max-width: 75rem;
+  justify-content: center;  
+  align-items: center;     
+  padding: 2rem;            
+  min-height: 100vh;        
+  box-sizing: border-box;
 }
 
 .resume-section .container {
   max-width: 800px;
+  width: 100%;
   background: #fff;
-  width: 800px;
   padding: 25px 40px 10px 40px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
+  box-sizing: border-box;
+} 
+
 
 .resume-section .container .text {
   text-align: center;
@@ -11108,7 +11109,7 @@ form .form-row .textarea {
   }
 
   .submit-btn .input-data {
-    width: 40% !important;
+    width: 100% !important;
   }
 }
 
@@ -11128,5 +11129,11 @@ form .form-row .textarea {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .resume-section .container {
+    padding: 20px;
   }
 }
