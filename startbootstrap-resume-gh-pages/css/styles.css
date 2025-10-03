@@ -1,5 +1,15 @@
 @charset "UTF-8";
-
+/*!
+* Start Bootstrap - Resume v7.0.6 (https://startbootstrap.com/theme/resume)
+* Copyright 2013-2023 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap  v5.2.3 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11126,4 +11136,92 @@ form .form-row .textarea {
   .resume-section .container {
     padding: 20px;
   }
+}
+
+.row.links-row {
+  background-color: #f8f9fa; 
+  padding: 20px 0;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.row.links-row .btn {
+  display: block;
+  width: 80%;
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 30px; /* rounded pill style */
+  transition: all 0.3s ease;
+  color: #fff;
+  background: linear-gradient(135deg, #ff4b5c, #b31217); /* 🔥 red gradient */
+  border: none;
+}
+
+/* Hover effect */
+.row.links-row .btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 18px rgba(179, 18, 23, 0.4);
+  opacity: 0.9;
+}
+/* Style for the second row (images) */
+.row.images-row {
+  background-color: #e9ecef; /* slightly darker gray */
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+/* Optional: add hover effect for links */
+.links-row a {
+  transition: transform 0.2s ease;
+}
+
+.links-row a:hover {
+  transform: scale(1.05);
+}
+
+.custom-btn {
+  display: block;
+  width: 80%;
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  color: #fff;
+  background: linear-gradient(135deg, #ff4b5c, #b31217);
+  border: none;
+}
+
+.custom-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 18px rgba(179, 18, 23, 0.4);
+  opacity: 0.9;
+}
+
+.project-card {
+  max-width: 500px;
+  margin: 0 auto; /* centers the card */
+  text-align: center;
+}
+
+.project-card img {
+  border-radius: 12px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: auto;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+  background: #f8f9fa; /* light gray background */
+  padding: 12px 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
